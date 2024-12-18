@@ -9,11 +9,11 @@ for (let i = 1; i <= 100; i++) {
     } else if (i % 3 === 0) {
         console.log("fizz");
 
-    // I multipli di 5 saranno "fizz"   
+    // I multipli di 5 saranno "buzz"   
     } else if (i % 5 === 0) {
         console.log("buzz");
 
-    // numeri che non sono multipli di 3 o 5
+    // numeri che non sono multipli di 3 e/o 5
     } else {
         console.log(i);
         
